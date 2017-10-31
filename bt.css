@@ -1,0 +1,81 @@
+
+.firstlogo{
+    width:100%;
+    height: 60px;
+}
+.logo{
+    font-family: "arial";
+    font-size: 40px;
+    float: left;
+    margin: 15px 0px 0px 5px;
+}
+
+.txttw{
+    font-family: "verdana";
+    float: right;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    margin: 35px 0px 0px 5px;
+}
+.txttut{
+    font-family: "verdana";
+    color: #be0c0c;
+    float: left; 
+    letter-spacing: 3px;
+} 
+.txtref{
+    font-family: "verdana";
+    float: left;
+    letter-spacing: 3px;
+}
+.txtex{
+    font-family: "verdana";
+    float: left;
+    letter-spacing: 3px;
+}
+
+.div{
+    width:100%;
+    height: 50px;
+    background: rgb(87, 182, 92);
+}
+
+.down{
+    float: left;
+    padding-right: 20px;
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+}
+.delete{
+    width: 20px;
+    height: 20px;
+}
+.btndelete{
+    border: none;
+    background: rgb(87, 182, 92);
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 10px ;
+}
+.search{
+    width: 25px;
+    height: 25px;
+}
+.btnsearch {
+    border-radius: 3px;
+    border: 1px ;
+    background: rgb(2, 0, 0);
+    float: right;
+    width: 80px;
+    height: 30px;
+    margin: 10px;
+}
+.inpsearch{
+    margin: 10px;
+    float: right;
+    width: 500px;
+    height: 30px;
+}
+
