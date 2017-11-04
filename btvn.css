@@ -1,0 +1,129 @@
+
+.superdeal{
+    width: 100%;
+    height: 50px;
+    
+}
+.title_SD{
+    float: left;   
+    font-size: 40;
+    margin-bottom: 20px;
+}
+
+.icon1{
+    padding-top: 30px;
+    padding-left: 10px;
+    float: right;
+}
+
+.more{
+    display: block;
+    padding-top: 30px;
+    float:right;
+    text-decoration: none;
+    color: black;
+}
+.more:hover{
+    color: red;
+}
+
+.list_data{
+    width: 100%;
+    height: 50px;
+}
+
+.choose{
+    display: block;
+    float: right;
+    padding-left: 40px;
+}
+.data{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+.data:hover{
+    color: red;
+}
+.price{
+    display: block;
+    margin: 0px 0px 15px 15px;
+}
+
+.sale{
+    bottom: 10px;
+    left: 20px;
+    color: #ff3100;
+    font-family: Tahoma;     
+    font-size: 20;
+    overflow: hidden;
+    float: left;
+    margin-top: 15px;
+}
+.icon{
+    overflow: hidden;
+    margin-left: 3px;
+    width: 30px;
+    height: 30px;
+    background: url(//pics.gmarket.co.kr/pc/gc/main/gc_main.png) no-repeat -400px 0;
+    color: #fff;
+    font-size: 0;
+    text-indent: -999em;
+    float: right;
+    margin-top: 5px;
+}
+
+.list_link_product{
+    width: 100%;
+    height: 600px;
+
+}
+.title_link{
+    padding-left: 20px;
+}
+.link_product{
+    display: block;
+    width: 400px;
+    height: 370px;
+    margin-right: 5px;
+    float: left;
+    border: 1px solid grey;
+}
+._del{
+    float: right;
+
+}
+.sale_del{
+    width: 380px;
+    height: 50px;
+}
+.cur{
+    width: 380px;
+    height: 50px
+}
+.currency{
+    margin-top: 10px;
+    color: #252525;
+    font-family: Tahoma;
+    font-size: 22px;
+    margin-left: 310px;
+
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    display: block;
+    color: blue;
+}
+.square{
+    border:1px solid black;
+    margin-left: 300px;
+}
+
+
+
+
+
+
