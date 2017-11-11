@@ -1,0 +1,215 @@
+.login {
+    position:absolute;
+    width: 70%;
+    height: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-top: 80px;
+    padding-right:10px; 
+}
+.text {  
+    width: 60%;
+    height: 100px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.text-title {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 70px;
+}
+.text-detail {
+    color: white;
+    font-family: Verdana;
+    text-align: center;
+    font-size: 30px;
+}
+@media only screen and (min-width: 320px) {
+    .col-xs-12{
+        height: 40%;
+    }
+    .login {
+        background: #ffffff;
+        padding-left: 30px;
+        margin-top: 10%;
+    }
+    .login-size {
+        background: #8a1e2e;
+    }
+    .btn-login {
+        background: #8a1e2e;
+        width: 90%;
+        height: 30px;
+        border: none; 
+        position: relative;;
+        color: #ffffff;
+        font-family: Verdana;
+        font-size: 15px;  
+    }
+    .icon-user::before {
+        content:'\e971'; 
+        background: #8a1e2e;
+        color: #d8d5d8;
+        font-size: 39px;
+        margin-left: 1px;
+    }
+    .icon-key::before {
+        content: '\e900';
+        background: #8a1e2e;
+        color: #d8d5d8;
+        font-size: 39px;
+        margin-left: 1px;
+    }
+    .border-left {
+        margin-top: 150px;
+        margin-left: 540px;
+        width: 100px;
+        height: 0px;
+    }
+    .border-down {
+        height: 0px;
+        padding-bottom: 150px;
+        padding-left: 95px;
+    }
+    .text-size {
+        color: #8a1e2e;
+        font-size: 12px;
+    }
+    .text-size-detail {
+        color: #8a1e2e;
+        font-size: 12px;
+        padding-top: 8px; 
+    }
+}
+@media only screen and (min-width: 768px) {
+    .login {
+        background: #ffffff;
+        padding-left: 30px;
+        margin-top: 5%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .col-md-6 {
+        height: 658px;  
+    }
+    .login {
+        background: #8a1e2e;
+        margin-top: 0px;
+    }
+    .login-size {
+        background: #ffffff;
+    }
+    .btn-login {
+        background: white;
+        width: 90%;
+        height: 30px;
+        border: none; 
+        position: relative;;
+        color: #8a1e2e;
+        font-family: Verdana;
+        font-size: 15px;  
+    }
+    .icon-user::before {
+        content:'\e971'; 
+        background: #d8d5d8;
+        color: #8a1e2e;
+        font-size: 39px;
+        margin-left: 1px;
+    }
+    .icon-key::before {
+        content: '\e900';
+        background: #d8d5d8;
+        color: #8a1e2e;
+        font-size: 39px;
+        margin-left: 1px;
+    }
+    .border-left-color { 
+        border-top: 100px solid transparent;
+        border-left: 104px solid rgb(241, 234, 245);
+        width: 0px;
+        height: 100%;
+    }
+    .border-down-color {
+        border-top: 150px solid rgb(241, 234, 245);
+        border-left: 100px solid transparent;
+        width: 100%px;
+        height: 0px;
+    }
+    .border-left {
+        margin-top: 150px;
+        margin-left: 540px;
+        width: 100px;
+        height: 350px;
+    }
+    .border-down {
+        height: 150px;
+        padding-bottom: 150px;
+        padding-left: 95px;
+    }
+    .text-size {
+        color: white;
+        font-size: 13px;
+        display: flex;
+    }
+    .text-size-detail {
+        color: white;
+        font-size: 13px;
+        padding-top: 8px; 
+    }
+}
+.login-size {
+    position:absolute;
+    height:100%;
+    width: 100%;
+    
+}
+.checkbox-color {
+    color: white;
+}
+.text-size {
+    position:absolute;
+    height:100%;
+    width: 100%;
+}
+.row {
+    position: relative;
+    width: 100%;
+    height: 658px;
+    background: #8a1e2e;
+}
+.form {
+    width: 100%;
+    height: 40px;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?fkpn9f');
+    src:  url('fonts/icomoon.eot?fkpn9f#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?fkpn9f') format('truetype'),
+      url('fonts/icomoon.woff?fkpn9f') format('woff'),
+      url('fonts/icomoon.svg?fkpn9f#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+
